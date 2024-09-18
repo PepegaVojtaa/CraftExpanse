@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "x": {
+      "item": "craftexpanse:polished_stone"
+    }
+  },
+  "pattern": [
+    "   ",
+    "xx ",
+    "xx "
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:stone_bricks"
+  }
+}
