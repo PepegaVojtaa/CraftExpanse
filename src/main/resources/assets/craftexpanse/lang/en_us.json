@@ -3,5 +3,7 @@
   "item.craftexpanse.diamond_chip": "Diamond Chip",
 
   "block.craftexpanse.pebble_dirt": "Pebble Dirt",
-  "block.craftexpanse.polished_stone": "Polished Stone"
+  "block.craftexpanse.polished_stone": "Polished Stone",
+  "block.craftexpanse.polished_stone_stairs": "Polished Stone Stairs",
+  "block.craftexpanse.polished_stone_slab": "Polished Stone Slab"
 }

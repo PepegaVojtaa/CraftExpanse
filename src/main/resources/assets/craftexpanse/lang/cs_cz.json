@@ -3,5 +3,7 @@
   "item.craftexpanse.diamond_chip": "Diamantový Čip",
 
   "block.craftexpanse.pebble_dirt": "Oblázková Hlína",
-  "block.craftexpanse.polished_stone": "Leštěný Kámen"
+  "block.craftexpanse.polished_stone": "Leštěný Kámen",
+  "block.craftexpanse.polished_stone_stairs": "Leštěný Kámen Schody",
+  "block.craftexpanse.polished_stone_slab": "Leštěný Kámen Půlblok"
 }

@@ -53,26 +53,26 @@ public class CraftExpanse
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-    event.accept(ModItems.PEBBLE);
-    event.getEntries().putBefore(Items.COAL.getDefaultInstance(), ModItems.PEBBLE.get().getDefaultInstance(),CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-}
-
-if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-    event.accept(ModItems.DIAMOND_CHIP);
-    event.getEntries().putBefore(Items.IRON_NUGGET.getDefaultInstance(), ModItems.DIAMOND_CHIP.get().getDefaultInstance(),CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.PEBBLE);
+            event.getEntries().putBefore(Items.COAL.getDefaultInstance(), ModItems.PEBBLE.get().getDefaultInstance(),CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-    event.accept(ModBlocks.PEBBLE_DIRT);
-    event.getEntries().putBefore(Items.COARSE_DIRT.getDefaultInstance(), ModBlocks.PEBBLE_DIRT.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.DIAMOND_CHIP);
+            event.getEntries().putBefore(Items.IRON_NUGGET.getDefaultInstance(), ModItems.DIAMOND_CHIP.get().getDefaultInstance(),CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
 
-if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-   event.accept(ModBlocks.POLISHED_STONE);
-    event.getEntries().putBefore(Items.COBBLESTONE.getDefaultInstance(), ModBlocks.POLISHED_STONE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.PEBBLE_DIRT);
+            event.getEntries().putBefore(Items.COARSE_DIRT.getDefaultInstance(), ModBlocks.PEBBLE_DIRT.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.POLISHED_STONE);
+            event.getEntries().putBefore(Items.COBBLESTONE.getDefaultInstance(), ModBlocks.POLISHED_STONE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
     }
-}
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent

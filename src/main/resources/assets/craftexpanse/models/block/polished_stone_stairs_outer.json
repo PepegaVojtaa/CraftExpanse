@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "craftexpanse:block/polished_stone",
+    "side": "craftexpanse:block/polished_stone",
+    "top": "craftexpanse:block/polished_stone"
+  }
+}

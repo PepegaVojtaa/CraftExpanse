@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "craftexpanse:block/polished_stone_slab"
+    },
+    "type=double": {
+      "model": "craftexpanse:block/polished_stone"
+    },
+    "type=top": {
+      "model": "craftexpanse:block/polished_stone_top"
+    }
+  }
+}
