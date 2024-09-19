@@ -72,6 +72,16 @@ public class CraftExpanse
             event.accept(ModBlocks.POLISHED_STONE);
             event.getEntries().putBefore(Items.COBBLESTONE.getDefaultInstance(), ModBlocks.POLISHED_STONE.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.POLISHED_STONE_STAIRS);
+            event.getEntries().putBefore(Items.COBBLESTONE.getDefaultInstance(), ModBlocks.POLISHED_STONE_STAIRS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.POLISHED_STONE_SLAB);
+            event.getEntries().putBefore(Items.COBBLESTONE.getDefaultInstance(), ModBlocks.POLISHED_STONE_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
