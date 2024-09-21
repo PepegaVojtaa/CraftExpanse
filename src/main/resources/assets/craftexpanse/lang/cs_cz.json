@@ -1,9 +1,9 @@
 {
   "item.craftexpanse.pebble": "Oblázek",
-  "item.craftexpanse.diamond_chip": "Diamantový Čip",
+  "item.craftexpanse.diamond_chip": "Diamantový čip",
 
-  "block.craftexpanse.pebble_dirt": "Oblázková Hlína",
-  "block.craftexpanse.polished_stone": "Leštěný Kámen",
-  "block.craftexpanse.polished_stone_stairs": "Leštěný Kámen Schody",
-  "block.craftexpanse.polished_stone_slab": "Leštěný Kámen Půlblok"
+  "block.craftexpanse.pebble_dirt": "Oblázková hlína",
+  "block.craftexpanse.polished_stone": "Leštěný kámen",
+  "block.craftexpanse.polished_stone_stairs": "Schody z leštěného kamene",
+  "block.craftexpanse.polished_stone_slab": "Půlblok z leštěného kamene"
 }
