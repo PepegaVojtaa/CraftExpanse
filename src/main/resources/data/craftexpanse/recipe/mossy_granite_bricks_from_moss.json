@@ -1,13 +1,12 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "building",
   "ingredients": [
     {
-      "item": "minecraft:vines"
-    }
-
-    {
       "item": "craftexpanse:granite_bricks"
+    },
+    {
+      "item": "minecraft:moss_block"
     }
   ],
   "result": {
