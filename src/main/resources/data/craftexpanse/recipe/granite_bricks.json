@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "x": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "pattern": [
+    "   ",
+    "xx ",
+    "xx "
+  ],
+  "result": {
+    "count": 4,
+    "id": "craftexpanse:granite_bricks"
+  }
+}

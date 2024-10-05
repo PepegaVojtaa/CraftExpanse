@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "craftexpanse:block/pink_daisy"
+  }
+}

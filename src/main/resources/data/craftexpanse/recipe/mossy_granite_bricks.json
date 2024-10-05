@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:vines"
+    }
+
+    {
+      "item": "craftexpanse:granite_bricks"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "craftexpanse:mossy_granite_bricks"
+  }
+}

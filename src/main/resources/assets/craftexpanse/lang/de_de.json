@@ -5,5 +5,9 @@
   "block.craftexpanse.pebble_dirt": "Kieselerde",
   "block.craftexpanse.polished_stone": "Polierter Stein",
   "block.craftexpanse.polished_stone_slab": "Polierte Steinplatte",
-  "block.craftexpanse.polished_stone_stairs": "Polierte Steintreppe"
+  "block.craftexpanse.polished_stone_stairs": "Polierte Steintreppe",
+  "block.craftexpanse.granite_bricks": "Granitziegel",
+  "block.craftexpanse.mossy_granite_bricks": "Moosige Granitziegel",
+  "block.craftexpanse.pink_daisy": "Rosa Gänseblümchen",
+  "block.craftexpanse.white_terracotta_stairs": "Weiße Terrakotta-Stufen"
 }

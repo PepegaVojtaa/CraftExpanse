@@ -82,6 +82,21 @@ public class CraftExpanse
             event.accept(ModBlocks.POLISHED_STONE_SLAB);
             event.getEntries().putBefore(Items.COBBLESTONE.getDefaultInstance(), ModBlocks.POLISHED_STONE_SLAB.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.GRANITE_BRICKS);
+            event.getEntries().putBefore(Items.DIORITE.getDefaultInstance(), ModBlocks.GRANITE_BRICKS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.MOSSY_GRANITE_BRICKS);
+            event.getEntries().putBefore(Items.DIORITE.getDefaultInstance(), ModBlocks.MOSSY_GRANITE_BRICKS.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.PINK_DAISY);
+            event.getEntries().putBefore(Items.CORNFLOWER.getDefaultInstance(), ModBlocks.PINK_DAISY.get().asItem().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
